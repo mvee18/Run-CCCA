@@ -1,0 +1,46 @@
+    10  O    2.664046   3.932124   2.552215   1.624792   0.000000
+    11  O    2.613120   4.213834   2.899710   1.596028   2.781362
+    12  Si   1.772126   2.430749   3.283458   3.170438   3.749405
+    13  O    2.666110   2.110697   2.791110   3.238374   3.323729
+    14  O    2.668221   1.890816   3.413651   3.806246   4.798313
+                   11         12         13         14
+    11  O    0.000000
+    12  Si   4.320591   0.000000
+    13  O    4.748328   1.698049   0.000000
+    14  O    4.750444   1.612156   2.529720   0.000000
+ Stoichiometry    Mg4O8Si2
+ Framework group  C1[X(Mg4O8Si2)]
+ Deg. of freedom    36
+ Full point group                 C1      NOp   1
+ Largest Abelian subgroup         C1      NOp   1
+ Largest concise Abelian subgroup C1      NOp   1
+                         Standard orientation:
+ ---------------------------------------------------------------------
+ Center     Atomic      Atomic             Coordinates (Angstroms)
+ Number     Number       Type             X           Y           Z
+ ---------------------------------------------------------------------
+      1         12           0        1.724677    1.059707    1.424877
+      2          8           0       -0.052033   -2.546835    0.767248
+      3         12           0       -1.732112   -1.642393    0.548764
+      4          8           0       -3.316801   -0.837379    0.099662
+      5         12           0       -2.817141    0.749941   -0.607453
+      6          8           0       -0.370756   -0.224929   -0.158708
+      7         12           0        2.220941    0.085227   -1.249768
+      8          8           0        1.389036    1.675496   -0.633264
+      9         14           0       -0.186132    1.491100   -0.061897
+     10          8           0        0.022277    1.807558    1.518093
+     11          8           0       -1.481077    2.049300   -0.809452
+     12         14           0        0.846707   -1.506218   -0.030210
+     13          8           0        2.108070   -0.655237    0.723558
+     14          8           0        1.450730   -1.620240   -1.520580
+ ---------------------------------------------------------------------
+ Rotational constants (GHZ):      0.6551518      0.4890686      0.3657315
+ Basis read from chk: "/tmp/bnp.223162.sequoia/Gau-26681.chk" (5D, 7F)
+ There are   550 symmetry adapted cartesian basis functions of A   symmetry.
+ There are   474 symmetry adapted basis functions of A   symmetry.
+   474 basis functions,  1088 primitive gaussians,   550 cartesian basis functions
+    70 alpha electrons       70 beta electrons
+       nuclear repulsion energy      1640.4578850420 Hartrees.
+ NAtoms=   14 NActive=   14 NUniq=   14 SFac= 1.00D+00 NAtFMM=   60 NAOKFM=F Big=F
+ Integral buffers will be    131072 words long.
+ Raffenetti 2 integral format.
