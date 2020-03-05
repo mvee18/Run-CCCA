@@ -1,7 +1,9 @@
-# This script will take an output file and extract the final Standard Orientation from Gaussian output files.
-
 import os
 import numpy
+
+atoms = input("How many atoms are there?")
+type(atoms)
+atoms = int(atoms)
 
 geometry_file = os.path.join('geometry.txt')
 xyz = open(geometry_file, 'r')
@@ -17,7 +19,7 @@ for line in lines:
         found = True
     if i < 5 and found:
         i+=1
-    elif i < 19 and found:
+    elif i < atoms + 5 and found:
         geom.append(line)
         i+=1
     else:
@@ -38,11 +40,18 @@ for i, row in enumerate(rows):
             geom[i][j] = 'Mg'
         if value == '14':
             geom[i][j] = 'Si'
-print(geom)
+        if value == '6':
+            geom[i][j] = 'C'
+        if value == '1':
+            geom[i][j] = 'H'
+        if value == '20':
+            geom[i][j] = 'Ca'
 
 geomarray = numpy.asarray(geom)
 
 final = numpy.delete(geomarray,[0,2],1)
+shape = numpy.shape(final)
 print(final)
+print(shape)
 numpy.savetxt("tmp.txt", final, delimiter=" ", fmt='%s')
 xyz.close()
